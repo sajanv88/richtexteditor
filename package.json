@@ -1,0 +1,26 @@
+{
+  "name": "richeditor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel serve -p 3000 src/index.html -d dist --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@editorjs/editorjs": "^2.19.1",
+    "@editorjs/header": "^2.6.1",
+    "@editorjs/image": "^2.6.0",
+    "@editorjs/link": "^2.3.1",
+    "@editorjs/list": "^1.6.1",
+    "@editorjs/paragraph": "^2.8.0",
+    "@editorjs/underline": "^1.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "sass": "^1.32.4",
+    "typescript": "^4.1.3"
+  }
+}

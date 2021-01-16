@@ -1,0 +1,19 @@
+body {
+	background-color: grey;
+	.container {
+		width: 950px;
+		margin: 1.8rem auto;
+    box-shadow: 0 0 0.5rem #0000008c;
+		background-color: white;
+		padding: 1rem;
+		&__save-btn {
+			padding: .8rem 1.5rem;
+			background-color: rgb(20, 59, 168);
+			border: none;
+			color: #fff;
+			&:hover {
+				background-color: lighten(rgb(20, 59, 168), 10%);
+			}
+		}
+	}
+}
